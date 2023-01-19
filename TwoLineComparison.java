@@ -1,7 +1,7 @@
 package com.LineComparision;
 
 public class TwoLineComparison {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("Hey welcome in line comparison");
         int x1 = 5;
@@ -21,6 +21,15 @@ public class TwoLineComparison {
         if (len1 == len2) {
             System.out.println("Both lines are Equal");
         }
+        //comparison between lines
+
+        else if (len1 > len2) {
+            System.out.println("Line 1 is Greater than Line 2:" + len1);
+        } else if (len1 < len2) {
+            System.out.println("Line 1 is less than Line 1:" + len1);
+        } else {
+
 
         }
+    }
 }
